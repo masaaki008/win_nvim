@@ -1,0 +1,8 @@
+# カラーテーマ
+[[plugins]]
+repo = 'tomasr/molokai'
+hook_add = '''
+    syntax enable
+    colorscheme molokai
+    set t_Co=256
+'''
